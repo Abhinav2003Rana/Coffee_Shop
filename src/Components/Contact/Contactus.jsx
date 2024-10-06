@@ -7,7 +7,7 @@ import email from "../Assets/email.png";
 export const Contactus = () => {
   return (
     <>
-      <h2>Find Us</h2>
+      <h2 className="h2">Find Us</h2>
       <p className="up-parra">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
         necessitatibus saepe, porro autem sunt beatae et assumenda illo deleniti

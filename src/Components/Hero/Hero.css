@@ -23,6 +23,7 @@
     position: absolute;
     bottom: 20px;
     left: 35%;
+    cursor: pointer;
 }
 .hero-left p{
     padding: 30px 0;
@@ -56,11 +57,49 @@
 }
 .hero-right{
     display: flex;
-    width: 50%;
+    width: 500px;
 
 }
 .hero-right img{
     cursor: pointer;
     max-height: 80vh;
     padding-left: 20%;
+}
+
+/* --------------------------media-queries----------------- */
+
+@media (max-width:685px) {
+    .hero{
+        margin: 30px 100px;
+        height: 80vh;
+    }
+    .hero-left-logo h1{
+        font-size: 3rem;
+    }
+    .hero-left-logo img{
+        width: 40px;
+        left: 5.6rem;
+        bottom: .5rem;
+    }
+    .hero-left p{
+        font-size: 1rem;
+    }
+    .btns .black-btn{
+        font-size: 1rem;
+        width: 38%;
+        padding: 7px 12px;
+    }
+    .btns .white-btn{
+        font-size: .8rem;
+        width: 55%;
+        padding: 7px 12px;
+    }
+    .hero-right{
+        width: auto;
+    }
+    .hero-right img{
+        margin-top: -10%;
+        max-width: 45vw;
+        max-height: 60vh;
+    }
 }

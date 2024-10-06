@@ -32,3 +32,25 @@
     margin-left: 16px;
     cursor: pointer;
 }
+
+
+/* -----------------media queries------------- */
+
+
+
+
+@media (max-width:685px) {
+    .item{
+        width: 41.5%;
+    }
+    .item img{
+        width: 217px;
+        height: 260px;
+    }
+    .item p,span{
+        font-size: 1rem;
+    }
+    .item button{
+        font-size: .5rem;
+    }
+}

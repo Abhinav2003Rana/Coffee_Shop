@@ -44,3 +44,53 @@
     text-align: center;
     padding: 1rem;
 }
+
+/* --------------------media queries---------------- */
+
+
+@media (max-width:685px) {
+    .Footer{
+        margin:0px 100px 0px 100px;
+    }
+    .foot-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .foot-logo img{
+        width: 60px;
+    }
+    .foot-logo span{
+        font-size: 1.2rem;
+        padding-top:15px ;
+    }
+    .foot-links ul{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+    .foot-links ul li{
+        font-size: 1.2rem;
+        margin: 0px 1.5rem;
+    }
+    .foot-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    .foot-icons img{
+        width: 30px;
+        margin: 0 1rem;
+        cursor: pointer;
+    }
+    .hori{
+        margin: 0 5rem;
+    }
+    .para{
+        font-size: 1rem;
+        text-align: center;
+        padding: .5rem;
+    }
+}

@@ -17,3 +17,21 @@
 .popular_item{
     display: flex;
 }
+
+
+/* -------------------media queries--------------- */
+
+@media (max-width:685px) {
+    .popular{
+        margin: 30px 80px;
+        height: 50vh;
+    
+    }
+    .popular h1{
+        font-size: 3rem;
+    }
+    .popular_item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
