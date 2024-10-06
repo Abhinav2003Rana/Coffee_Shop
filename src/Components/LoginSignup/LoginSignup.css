@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Login-page{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+.login-card{
+    background-color: white;
+    margin-top: 3%;
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 2rem;
+}
+.login-card h2{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.login-card input{
+    padding: 16px 20px;
+    margin: .5rem 1rem;  
+    font-size: 2rem; 
+}
+.login-card button{
+    padding: 16px 20px;
+    margin: .5rem 1rem;  
+    font-size: 2rem; 
+    cursor: pointer;   
+    background-color: #181C14;
+    border: none;
+    color: white;
+}

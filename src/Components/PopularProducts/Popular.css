@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.popular{
+    margin: 30px 150px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+.popular_item{
+    display: flex;
+}

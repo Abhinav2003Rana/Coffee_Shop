@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    background-image: url('../Assets/solid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo p{
+    padding-top: 12px;
+    font-size: 26px;
+    font-weight: 900;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+
+}
+.nav-bar ul li{
+    color: black;
+    list-style: none;
+    text-decoration: none;  
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;   
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.nav-bar ul li hr{
+    border:none;
+    width: 20px;
+    height: 3px;
+    border-radius: 10px;
+    background: black;
+
+}
+
+
+.nav-login-cart button{
+    border-radius: 6px;
+    color: white;
+    background-color: #181C14;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 16px;
+    margin-top: 15px;
+}
