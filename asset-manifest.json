@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Coffee_Shop/static/css/main.2e5319a7.css",
+    "main.js": "/Coffee_Shop/static/js/main.e3d328c5.js",
+    "static/js/453.ca683c21.chunk.js": "/Coffee_Shop/static/js/453.ca683c21.chunk.js",
+    "static/media/hero.png": "/Coffee_Shop/static/media/hero.365cc75641ede6f4e1fb.png",
+    "static/media/Orderpng.png": "/Coffee_Shop/static/media/Orderpng.59225e4eb4c83d747b8c.png",
+    "static/media/espressoroast.jpg": "/Coffee_Shop/static/media/espressoroast.e3269071df19d26086ad.jpg",
+    "static/media/hot.jpg": "/Coffee_Shop/static/media/hot.beb5f0c86fc5e9c677a1.jpg",
+    "static/media/ColombianBlend.jpg": "/Coffee_Shop/static/media/ColombianBlend.53087ccbebce52ff5c5d.jpg",
+    "static/media/Drink.png": "/Coffee_Shop/static/media/Drink.822f1a5679a2e5eeaf0f.png",
+    "static/media/lastpop.jpg": "/Coffee_Shop/static/media/lastpop.b2a927fd06ca9ee2b935.jpg",
+    "static/media/FrenchVanilla.jpg": "/Coffee_Shop/static/media/FrenchVanilla.1869d9986d4befbc7997.jpg",
+    "static/media/solid.jpg": "/Coffee_Shop/static/media/solid.af4b91cccaa32ed956f9.jpg",
+    "static/media/Coldcoffee.png": "/Coffee_Shop/static/media/Coldcoffee.d5060a3d87090c381009.png",
+    "static/media/cold.jpg": "/Coffee_Shop/static/media/cold.bfdd395d4af98fe257bf.jpg",
+    "static/media/logo.png": "/Coffee_Shop/static/media/logo.68352d393b709802d796.png",
+    "static/media/gift.png": "/Coffee_Shop/static/media/gift.706aa79d0da1555621e0.png",
+    "static/media/twitter.png": "/Coffee_Shop/static/media/twitter.7e40f617aaa8eca864bb.png",
+    "static/media/instagram.png": "/Coffee_Shop/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/facebook.png": "/Coffee_Shop/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "static/media/email.png": "/Coffee_Shop/static/media/email.51b08bcbb5af7a861c31.png",
+    "index.html": "/Coffee_Shop/index.html",
+    "main.2e5319a7.css.map": "/Coffee_Shop/static/css/main.2e5319a7.css.map",
+    "main.e3d328c5.js.map": "/Coffee_Shop/static/js/main.e3d328c5.js.map",
+    "453.ca683c21.chunk.js.map": "/Coffee_Shop/static/js/453.ca683c21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e5319a7.css",
+    "static/js/main.e3d328c5.js"
+  ]
+}
