@@ -39,7 +39,7 @@
 
 
 
-@media (max-width:685px) {
+@media (max-width:768px) {
     .item{
         width: 41.5%;
     }
@@ -52,5 +52,23 @@
     }
     .item button{
         font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .item{
+        width: 31%;
+    }
+    .item img{
+        width: 117px;
+        height: 130px;
+    }
+    .item p,span{
+        font-size: .6rem;
+    }
+    .item button{
+        font-size: .3rem;
+        padding: 0px 5px;
+      
     }
 }

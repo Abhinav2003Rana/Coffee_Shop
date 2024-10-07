@@ -36,7 +36,7 @@
 
 /* ----------------media Queries-------------- */
 
-@media (max-width:685px) {
+@media (max-width:768px) {
     .gift{
         display: flex;
         margin: 90% 100px 0 100px;
@@ -58,6 +58,37 @@
         font-size: .8rem;
         width: 60%;
         padding: 12px 18px;
+        border: none;
+        color: white;
+        background-color: #181C14;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .gift{
+        display: flex;
+        margin: 90% 50px 0 60px;
+        height: 30vh;
+    }
+    .left-gift img{
+        padding-top: 2rem;
+        width: 190px
+    }
+    .right-gift h1{
+        padding-top: 40%;
+        font-size: 1.8rem;
+    }
+    .right-gift p{
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
+    .right-gift button{
+        font-size: .6rem;
+        width: 45%;
+        padding: 10px 12px;
         border: none;
         color: white;
         background-color: #181C14;

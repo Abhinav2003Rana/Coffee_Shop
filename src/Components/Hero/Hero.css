@@ -62,13 +62,14 @@
 }
 .hero-right img{
     cursor: pointer;
-    max-height: 80vh;
+    width: 540px;
+    height: 600px;
     padding-left: 20%;
 }
 
 /* --------------------------media-queries----------------- */
 
-@media (max-width:685px) {
+@media (max-width:768px) {
     .hero{
         margin: 30px 100px;
         height: 80vh;
@@ -103,3 +104,39 @@
         max-height: 60vh;
     }
 }
+
+@media only screen and (max-width: 480px) {
+        .hero{
+        margin: 30px 60px;
+        height: 40vh;
+    }
+    .hero-left-logo h1{
+        font-size: 2rem;
+    }
+    .hero-left-logo img{
+        width: 20px;
+        left: 3.8rem;
+        bottom: .5rem;
+    }
+    .hero-left p{
+        font-size: .7rem;
+    }
+    .btns .black-btn{
+        font-size: .6rem;
+        width: 30%;
+        padding: 7px 8px;
+    }
+    .btns .white-btn{
+        font-size: .6rem;
+        width: 35%;
+        padding: 7px 8px;
+    }
+    .hero-right{
+        width: auto;
+    }
+    .hero-right img{
+        margin-top: -10%;
+        width: 180px;
+        height: 220px;
+    }    
+  }

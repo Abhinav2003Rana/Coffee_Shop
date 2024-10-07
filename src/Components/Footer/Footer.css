@@ -48,7 +48,7 @@
 /* --------------------media queries---------------- */
 
 
-@media (max-width:685px) {
+@media (max-width:768px) {
     .Footer{
         margin:0px 100px 0px 100px;
     }
@@ -90,6 +90,52 @@
     }
     .para{
         font-size: 1rem;
+        text-align: center;
+        padding: .5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Footer{
+        margin:0px 50px 0px 50px;
+    }
+    .foot-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .foot-logo img{
+        width: 60px;
+    }
+    .foot-logo span{
+        font-size: 1rem;
+        padding-top:10px ;
+    }
+    .foot-links ul{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+    .foot-links ul li{
+        font-size: 1rem;
+        margin: 0px 1.5rem;
+    }
+    .foot-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-icons img{
+        width: 25px;
+        margin: 0 1rem;
+        cursor: pointer;
+    }
+    .hori{
+        margin: 0 5rem;
+    }
+    .para{
+        font-size: .8rem;
         text-align: center;
         padding: .5rem;
     }
