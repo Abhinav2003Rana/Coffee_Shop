@@ -52,3 +52,20 @@
         margin-left: 4rem;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .popular{
+        margin: 30px 20px;
+        height: 30vh;
+    
+    }
+    .popular h1{
+        font-size: 1.3rem;
+    }
+    .popular_item{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}

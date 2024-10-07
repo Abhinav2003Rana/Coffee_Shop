@@ -203,3 +203,71 @@
         background-color: #181C14;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .h2{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .up-parra{
+        text-align: center;
+        font-size: .6rem;
+        margin: .2rem 0rem;
+    }
+    .contact{
+        margin: 10px 20px;
+        display: flex;
+    }
+    .left-contact{
+        width: 40%;
+        margin: 1rem 0rem;
+    }
+    .icons{
+        display: flex;
+        margin: .5rem 0rem;
+    }
+    .icons img{
+        padding-top: 10px;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+    .icons span{
+        font-size: .6rem;
+        color: #af500f;
+    }
+    .icons p{
+        font-size: .4rem;
+    }
+    .icons-right{
+        margin-left: 10px;
+        width: 40%;
+    }
+    .right-contact{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        padding: 1rem;
+        margin: 1rem 0rem;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    }
+    .right-contact h3{
+        font-size: .8rem;
+    }
+    .right-contact input{
+        font-size: .6rem;
+        padding: .2rem;
+        margin: .5rem 0rem;
+    }
+    .right-contact button{
+        width: 30%;
+        font-size: .4rem;
+        padding: .3rem;
+        margin: 0rem;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: #181C14;
+    }
+}

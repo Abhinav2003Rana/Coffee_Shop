@@ -72,3 +72,21 @@
       
     }
 }
+@media only screen and (max-width: 320px) {
+    .item{
+        width: 42%;
+        margin: 10px;
+    }
+    .item img{
+        width: 117px;
+        height: 130px;
+    }
+    .item p,span{
+        font-size: .6rem;
+    }
+    .item button{
+        font-size: .3rem;
+        padding: 0px 8px;
+      
+    }
+}

@@ -140,3 +140,41 @@
         height: 220px;
     }    
   }
+
+  @media only screen and (max-width: 320px) {
+    .hero{
+    margin: 30px 40px;
+    height: 30vh;
+}
+.hero-left-logo h1{
+    font-size: 1.5rem;
+}
+.hero-left-logo img{
+    width: 20px;
+    left: 2.8rem;
+    bottom: .2rem;
+}
+.hero-left p{
+    font-size: .5rem;
+    padding: 5px 0;
+
+}
+.btns .black-btn{
+    font-size: .4rem;
+    width: 30%;
+    padding: 6px 6px;
+}
+.btns .white-btn{
+    font-size: .4rem;
+    width: 45%;
+    padding: 6px 6px;
+}
+.hero-right{
+    width: auto;
+}
+.hero-right img{
+    margin-top: -10%;
+    width: 120px;
+    height: 160px;
+}    
+}

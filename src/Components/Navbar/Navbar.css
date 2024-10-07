@@ -131,7 +131,7 @@
         position: absolute;
         background-color: #e2e2e2;
         left: 0;
-        top: 60px;
+        top: 40px;
         width: 100%;
         height: auto;
         animation-name: hamburger;
@@ -167,6 +167,60 @@
         justify-content: center;
         align-items: center;
         margin-top: 50%;
+        padding-right:10px ;
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .nav-bar{
+        justify-content: space-between;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    .nav-bar .hamul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #e2e2e2;
+        left: 0;
+        top: 40px;
+        width: 100%;
+        height: auto;
+        animation-name: hamburger;
+        animation-duration: 2s;
+        z-index: 1;
+    }
+    @keyframes hamburger{
+        0%{height: 0px;}
+        100%{height: 180px; animation-timing-function: ease-out;}
+    }
+    .nav-bar ul li{
+        font-size: 1rem;
+        margin: .8rem;
+        position: relative;
+        animation-name: list;
+        animation-duration: 4s;
+    }
+    @keyframes list {
+        0%{opacity: 0%;}
+        100%{opacity: 100%;}
+    }
+    .nav-login-cart{
+        display: none;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .logo p{
+        font-size: .8rem;
+        margin-bottom: 9px;
+    }
+    .menu img{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
         padding-right:10px ;
         width: 20px;
     }

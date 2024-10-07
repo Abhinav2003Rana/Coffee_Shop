@@ -140,3 +140,49 @@
         padding: .5rem;
     }
 }
+@media only screen and (max-width: 320px) {
+    .Footer{
+        margin:0px 20px 0px 20px;
+    }
+    .foot-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .foot-logo img{
+        width: 40px;
+    }
+    .foot-logo span{
+        font-size: .8rem;
+        padding-top:10px ;
+    }
+    .foot-links ul{
+        display: flex;
+        justify-content: center;
+        margin: .6rem 0rem;
+    }
+    .foot-links ul li{
+        font-size: .8rem;
+        margin: 0px 1.5rem;
+    }
+    .foot-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .foot-icons img{
+        width: 20px;
+        margin: 0rem 1rem;
+        cursor: pointer;
+    }
+    .hori{
+        margin: 0 5rem;
+    }
+    .para{
+        font-size: .6rem;
+        text-align: center;
+        padding: .1rem;
+    }
+}
